@@ -1,0 +1,105 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66FFFF"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.learn_english.MainActivity" >
+
+       <TableRow
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:id="@+id/ln1"
+        android:gravity="center"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            
+            android:layout_height="wrap_content"
+            android:src="@drawable/audiowave" />
+
+        <ImageButton
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/msonenote" />
+
+    </TableRow>
+    
+    <TableRow
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/ln2"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:src="@drawable/noun" />
+
+        <ImageButton
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/videocall" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/ln3"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:src="@drawable/googletranslate" />
+
+        <ImageButton
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/administrator" />
+
+    </TableRow>   
+    
+    <TableRow
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/ln4"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/imageView7"
+       		
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/youtube" />
+
+        <ImageButton
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shutdown" />
+
+    </TableRow>    
+    
+</TableLayout>
